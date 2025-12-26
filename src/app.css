@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap');
+
+
+:root {
+    --font:'Merriweather', Helvetica, sans-serif;
+} 
+body {
+    margin:0;
+    padding:0;
+    min-height: 100dvh;
+}
+h1 {
+    font-size:4rem;
+}
+
+h2 {
+    font-size:3.5rem;
+}
+
+h3 {
+    font-size:2.5rem;
+}
+
+a {
+    
+}
+
