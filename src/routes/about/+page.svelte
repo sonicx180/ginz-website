@@ -2,8 +2,10 @@
 
 </script>
 <main>
-    <h1> What do we do</h1>
+    <h1> Who are we?</h1>
 </main>
 <style>
-
+    main {
+        text-align:center;
+    }
 </style>
