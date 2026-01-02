@@ -1,11 +1,14 @@
 <script>
+	import Typewriter from 'svelte-typewriter';
+	import { concurrent } from 'svelte-typewriter';
 </script>
 
 <div class="hero">
 	<div class="text">
 		<h1>Ginz Associates & Inc</h1>
-		<span>Engineering & Contractor Work</span>
+		<span use:concurrent={{ interval:100 }}>Engineering & Contractor Work</span>
 	</div>
+
 	<img src="./contractor-icon.png" alt="Icon of a contractor holding tools" />
 </div>
 
@@ -13,12 +16,14 @@
 	.hero {
 		display: flex;
 		margin: 4rem;
+		padding: 1rem;
 	}
+
 	img {
 		margin-left: auto;
-        object-fit:contain;
+		object-fit: contain;
 	}
-    span {
-        color:var(--dark-clr);
-    }
+	span {
+		color: var(--dark-clr);
+	}
 </style>

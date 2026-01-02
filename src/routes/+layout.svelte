@@ -7,6 +7,8 @@
 
 <svelte:head>
 	<script src="https://kit.fontawesome.com/b2a6bb7e3b.js" crossorigin="anonymous"></script>
+	<link rel="icon" type="image/x-icon" href="/favicon.ico" />
+	<link rel="image/png" type="image/png" sizes="500x500" href = "/ginz-logo.png" />
 	<title> Ginz & Associates Inc </title>
 </svelte:head>
 <Navbar />

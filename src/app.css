@@ -3,10 +3,10 @@
 
 :root {
     --font:'Oswald', Helvetica, sans-serif;
-    --bg-clr:#F9F7F7;
-    --light-clr:#DBE2EF;
-    --med-clr:#3F72AF;
-    --dark-clr:#112D4E;
+    --bg-clr:#C9B59C;
+    --light-clr:#D9CFC7;
+    --med-clr:#EFE9E3;
+    --dark-clr:#F9F8F6;
     --bld-ft-wght:700;
     --med-ft-wght:500;
     --light-ft-wght:200;
@@ -18,9 +18,11 @@ body {
     font-family:var(--font);
     color:var(--med-clr);
     background-color:var(--bg-clr);
+    display:flex;
+    flex-direction:column;
 }
 h1 {
-    font-size:clamp(2rem,4rem,5rem);
+    font-size:clamp(2rem,8vw,6rem);
 }
 
 h2 {
@@ -46,12 +48,14 @@ a:hover {
 a, p, span {
     font-size:1.5rem;
 }
-
+main {
+    flex:1 0 auto;
+    margin:0 5px;
+}
 .hr {
     width:75%;
     margin-left:auto;
     margin-right:auto;
-
     border: 3px var(--dark-clr) solid;
 
 }

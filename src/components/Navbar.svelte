@@ -22,6 +22,7 @@
 	.links > a {
 		margin: 0 10px;
 		font-size:1.2rem;
+		color:var(--dark-clr);
 	}
 
 	.icon img {
