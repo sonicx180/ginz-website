@@ -5,8 +5,8 @@
     --font:'Oswald', Helvetica, sans-serif;
     --bg-clr:#C9B59C;
     --light-clr:#D9CFC7;
-    --med-clr:#EFE9E3;
-    --dark-clr:#F9F8F6;
+    --med-clr:#F9F8F6;
+    --dark-clr:#EFE9E3;
     --bld-ft-wght:700;
     --med-ft-wght:500;
     --light-ft-wght:200;
@@ -31,9 +31,14 @@ h2 {
 
 h3 {
     font-size:2.5rem;
-    font-weight:var(--med-ft-wght);
 }
 
+h3, p {
+    font-weight:var(--med-ft-wght);
+}
+p {
+    font-size:2rem;
+}
 h1, h2 {
     font-weight:var(--bld-ft-wght);
 }
@@ -60,3 +65,25 @@ main {
 
 }
 
+
+/* Animation for content */
+
+@keyframes fade-in {
+    from {
+    opacity: 0;
+    
+  }
+  to {
+    opacity: 1;
+   
+  }
+}
+
+/* Applying the animation */
+
+main {
+    animation:fade-in linear forwards;
+    animation-duration:2.5s;
+    
+    
+}
