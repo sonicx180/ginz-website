@@ -24,6 +24,9 @@
 		font-size:1.2rem;
 		color:var(--dark-clr);
 	}
+	.links > a:hover {
+		color:var(--light-clr);
+	}
 
 	.icon img {
 		width: 8vw;

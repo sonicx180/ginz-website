@@ -7,4 +7,5 @@
 <main>
     <h1> 404 error</h1>
     <p> Looks like your in the wrong spot. No worries, head on back <a href = "/"> to home</a></p>
+    <img src = "./house.png" alt = "A house" />
 </main>
