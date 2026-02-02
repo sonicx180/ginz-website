@@ -60,20 +60,19 @@
 	}
 	.content p {
 		margin: 0 3rem 1rem;
-
 	}
 	.content h2 {
 		/* adding underline for good "effect" */
-		text-decoration:underline;
+		text-decoration: underline;
 	}
 	.cta {
-		color: var(--dark-clr);
+		color: var(--accent-clr);
 		font-weight: var(--bld-ft-wght);
 	}
 
 	ul {
 		padding-left: 0;
-		font-size:1.5rem;
+		font-size: 1.5rem;
 	}
 
 	ul li {

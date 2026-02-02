@@ -2,10 +2,10 @@
 
 :root {
 	--font: 'Oswald', Helvetica, sans-serif;
-	--bg-clr: #d3bda2;
-	--light-clr: #d9cfc7;
-	--med-clr: #f9f8f6;
-	--dark-clr: #efe9e3;
+	--primary-clr: #0b101c;
+	--secondary-clr: #e1efe6;
+	--accent-clr: #efcb68;
+
 	--bld-ft-wght: 700;
 	--med-ft-wght: 500;
 	--light-ft-wght: 200;
@@ -25,8 +25,8 @@ html {
 body {
 	min-height: 100dvh;
 	font-family: var(--font);
-	color: var(--med-clr);
-	background-color: var(--bg-clr);
+	background-color: var(--primary-clr);
+	color: var(--secondary-clr);
 	display: flex;
 	flex-direction: column;
 }
@@ -39,7 +39,7 @@ h2 {
 }
 
 h3 {
-	font-size: clamp(1.2rem, 6vw, 4rem);;
+	font-size: clamp(1.2rem, 6vw, 4rem);
 }
 
 h3,
@@ -74,7 +74,7 @@ main {
 	width: 75%;
 	margin-left: auto;
 	margin-right: auto;
-	border: 3px var(--dark-clr) solid;
+	border: 3px var(--secondary-clr) solid;
 }
 
 /* Animation for content */

@@ -9,7 +9,7 @@
 		<span use:concurrent={{ interval:100 }}>Engineering & Contractor Work</span>
 	</div>
 
-	<img src="./contractor-icon.png" alt="Icon of a contractor holding tools" />
+	<img src="/imgs/contractor-icon.png" alt="Icon of a contractor holding tools" />
 </div>
 
 <style>
@@ -24,6 +24,6 @@
 		object-fit: contain;
 	}
 	span {
-		color: var(--dark-clr);
+		color: var(--accent-clr);
 	}
 </style>

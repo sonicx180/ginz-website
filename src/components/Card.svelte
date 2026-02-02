@@ -7,10 +7,10 @@
 		iUrl: string;
 	}
 	let {
-		address = "1010 Lorem Ipsum Avenue, Lorem, Ipsum, 00000",
+		address = '1010 Lorem Ipsum Avenue, Lorem, Ipsum, 00000',
 		year = 2026,
 		description = 'A beautiful house',
-        status = "In Progress",
+		status = 'In Progress',
 		iUrl = '/imgs/house.png'
 	}: Props = $props();
 </script>
@@ -21,18 +21,28 @@
 	<h3>Year of creation</h3>
 	<time> {year}</time>
 	<p>{description}</p>
-    <span> Status : {status}</span>
+	<span> Status : <span class="accent">{status} </span> </span>
 </div>
 
 <style>
 	.work-card {
-        width:25%;
-		border: 2px dashed var(--light-clr);
+		width: 35vw;
+		margin: 10px;
+		border: 2px dashed var(--accent-clr);
 		border-radius: 5px;
-        padding:5px;
+		padding: 5px;
 	}
-    .house-img {
-        object-fit: contain;
-        width:100%;
-    }
+	.house-img {
+		object-fit: contain;
+		width: 100%;
+	}
+	.accent {
+		color: var(--accent-clr);
+	}
+
+	@media screen and (max-width: 400px) {
+		.work-card {
+			width: 70vw;
+		}
+	}
 </style>

@@ -3,7 +3,7 @@
 
 <main>
 	<h1>Contact Us</h1>
-	<a href = "tel:+1-213-361-9181" class = "tel"> 1-213-361-9181</a>
+	<a href="tel:+1-213-361-9181" class="tel"> 1-213-361-9181</a>
 </main>
 
 <style>
@@ -11,6 +11,6 @@
 		text-align: center;
 	}
 	.tel {
-		color:var(-)
+		color: var(--accent-clr);
 	}
 </style>

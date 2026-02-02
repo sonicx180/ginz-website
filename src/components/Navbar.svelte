@@ -3,7 +3,7 @@
 
 <nav class="navbar">
 	<span class="icon">
-		<img src="/ginz-logo.png" alt="Logo of Ginz & Associates" />
+		<img src="/imgs/ginz-logo.png" alt="Logo of Ginz & Associates" />
 	</span>
 	<div class="links">
 		<a href="/"><i class="fa-solid fa-house"></i> Home </a>
@@ -21,15 +21,15 @@
 	}
 	.links > a {
 		margin: 0 10px;
-		font-size:1.2rem;
-		color:var(--dark-clr);
+		font-size: 1.2rem;
+		color: var(--accent-clr);
 	}
 	.links > a:hover {
-		color:var(--light-clr);
+		color: var(--secondary-clr);
 	}
 
 	.icon img {
 		width: 8vw;
-		object-fit:contain;
+		object-fit: contain;
 	}
 </style>

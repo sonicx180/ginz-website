@@ -12,6 +12,6 @@
         text-align:center;
     }
     a {
-        color:var(--light-clr);
+        color:var(--accent-clr);
     }
 </style>
