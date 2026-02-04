@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200..700&display=swap');
 
 :root {
-	--font: 'Oswald', Helvetica, sans-serif;
+	--font: 'Montserrat', Helvetica, sans-serif;
 	--primary-clr: #0b101c;
 	--secondary-clr: #e1efe6;
 	--accent-clr: #efcb68;
@@ -11,6 +11,11 @@
 	--light-ft-wght: 200;
 }
 
+* {
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
 /* Hide scrollbar for Chrome, Safari and Opera (WebKit browsers) */
 html::-webkit-scrollbar {
 	display: none;

@@ -78,4 +78,10 @@
 	ul li {
 		list-style-position: inside;
 	}
+
+	@media screen and (max-width:400px) {
+		.content {
+			padding:0;
+		}
+	}
 </style>

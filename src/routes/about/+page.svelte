@@ -2,14 +2,14 @@
 </script>
 
 <main>
-	<h1>Who are we?</h1>
+	<h1>About Us</h1>
 	<p>
-		At the heart of our work is a commitment to breathing new life into local neighborhoods. We
-		don’t just "fix up" houses; we meticulously reimagine them. By blending modern design trends
-		with structural integrity, we ensure that every property we touch isn't just a house on the
-		market—it’s a move-in-ready sanctuary. Our team manages every detail of the renovation process,
-		from high-end finishes to essential system upgrades, so you can skip the stress of remodeling
-		and get straight to living.
+		Founded by Godfrey Nzeogu, we're in the business of transforming houses into homes based in SoCal. We take
+		rundown properties and flip them into spaces where families actually want to live. It's not
+		just about slapping on fresh paint and calling it a day—we rebuild, redesign, and make sure
+		every corner works the way it should. From updated kitchens to solid foundations, we handle
+		the whole renovation so buyers can move in without the headache of fixing anything themselves.
+		Every flip we take on is another step toward revitalizing the neighborhoods we serve.
 	</p>
 </main>
 

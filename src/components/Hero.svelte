@@ -1,5 +1,4 @@
 <script>
-	import Typewriter from 'svelte-typewriter';
 	import { concurrent } from 'svelte-typewriter';
 </script>
 
@@ -26,4 +25,9 @@
 	span {
 		color: var(--accent-clr);
 	}
+
+	@media screen and (max-width:400px) {
+
+	}
+	
 </style>
