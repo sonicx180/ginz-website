@@ -2,7 +2,7 @@
 </script>
 
 <main>
-	<h1>Contact Us!</h1>
+	<h1>Contact Us</h1>
 	<div class="content">
 		<section>
 			<h2>Get in touch</h2>

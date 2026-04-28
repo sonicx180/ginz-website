@@ -1,3 +1,5 @@
 # Ginz & Associates Inc
 
-## [website](https://ginz-associates.sonicx180.xyz)
+Website made for Ginz & Associates Contractor Business in SoCal (non-offical)
+
+## [website](https://ginz-associates.vercel.app)

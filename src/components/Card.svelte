@@ -5,19 +5,21 @@
 		status: string;
 		year: number;
 		iUrl: string;
+		id:number;
 	}
 	let {
 		address = '1010 Lorem Ipsum Avenue, Lorem, Ipsum, 00000',
 		year = 2026,
 		description = 'A beautiful house',
 		status = 'In Progress',
-		iUrl = '/imgs/house.png'
+		iUrl = '/imgs/house.png',
+		id = 1010
 	}: Props = $props();
 </script>
 
 <div class="work-card">
 	<img src={iUrl} alt={description} class="house-img" />
-	<h2>{address}</h2>
+	<a href = "/{id}"><h2>{address}</h2> </a>
 	<h3>Year of creation</h3>
 	<time> {year}</time>
 	<p>{description}</p>
