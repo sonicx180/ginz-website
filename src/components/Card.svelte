@@ -30,7 +30,7 @@
 	.work-card {
 		width: 35vw;
 		margin: 10px;
-		border: 2px dashed var(--accent-clr);
+		border: 2px solid var(--accent-clr);
 		border-radius: 5px;
 		padding: 5px;
 	}
